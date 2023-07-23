@@ -1,0 +1,9 @@
+Process ID: 9306, Parent Process ID: 9301, Start Time: Mon May  1 20:48:24 2023
+Child Process ID: 9306, ls
+Child Process ID: 9303, cat singleshell.c
+Child Process ID: 9304, ls -l
+Child Process ID: 9305, ls
+Child Process ID: 9306, End Time: Mon May  1 20:49:50 2023
+Child Process ID: 9304, End Time: Mon May  1 20:49:53 2023
+Child Process ID: 9303, End Time: Mon May  1 20:49:57 2023
+Child Process ID: 9305, End Time: Mon May  1 20:50:00 2023
