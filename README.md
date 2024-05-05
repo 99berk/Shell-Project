@@ -20,8 +20,10 @@ In this project, you are required to implement a multi-shell program that opens 
 It is a partially implemented shell application. Here, it will write all the stdout messages we see in the shell to a shared file object. The memory shared in the file is created as follows:
 
 ***
-fd = shm_open(MY_SHARED_FILE_NAME, O_RDWR, 0); \n
+fd = shm_open(MY_SHARED_FILE_NAME, O_RDWR, 0);
+
 /* Map shared memory */
+
 addr = mmap(NULL, 1024, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
 ***
 
