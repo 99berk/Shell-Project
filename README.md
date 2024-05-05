@@ -16,6 +16,7 @@ In this project, you are required to implement a multi-shell program that opens 
 
 ## Details
 -singleshell.c-
+
 It is a partially implemented shell application. Here, it will write all the stdout messages we see in the shell to a shared file object. The memory shared in the file is created as follows:
 
 ***
@@ -36,6 +37,7 @@ In singleshell.c, you need to complete the following:
 7. Close all file descriptors and check for errors in all system calls.
 
 -multishell.c-
+
 It creates a given number of singleshell program instances.
 
 1. Given a number, it creates that many singleshell processes using xterm to display them in separate windows.
