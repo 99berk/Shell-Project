@@ -1,12 +1,3 @@
-/**
- * Bireysel Çaşışma
- * Berhan Berk Akgün / 21120205310
- * 
- * ChatGPT'den yardım aldığım noktalar oldu, 
- * local makinadan zaman bilgisini çekerken onun verdiği kodlardan yararlandım, 
- * bazı fonksyonların ve systemcall'larının nasıl 
- * çalıştığını ve alternatiflerinin neler olduğunu, nasıl kullanıldıklarını sordum.
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
